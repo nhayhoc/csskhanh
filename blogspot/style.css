@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: Helvertica Neue, Arial;
+    font-size: 18px;
+    max-width: 1140px;
+    margin:10px auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+/*div left here*/
+.left {
+    width: 70%;
+    float: left;
+    position: relative;
+}
+.right {
+    float: left;
+    width: 30%;
+    
+}
+.left h1 {
+    color: #00960b;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.blog h3 {
+    color: #00960b;
+    margin-bottom: 5px;
+}
+
+.blog p {
+    text-align: justify;
+    margin-bottom: 5px;
+}
+.blog {
+    margin-bottom: 15px;
+}
+.blog img {
+    width: 200px;
+}
+.left span {
+    position: absolute;
+    top:0px;
+    right:0;
+}
+
+/*div right here*/
+
+
+.right {
+    margin-top: 70px;
+}
+
+.right ul li {
+    margin-left: 60px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+.right ul li a {
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/*div footer here*/
+.footer {
+    margin-top: 50px;
+    border-top: 1px solid #808080;
+    padding-top:20px;
+}
+.footer img {
+    float:left;
+    width: 150px;
+    border-radius: 1000000px;
+}
+.footer a {
+    float:left;
+    padding-top:60px;
+    padding-left:30px;
+}
+.footer form {
+    float:right;
+}
+
