@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Untitled Document</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <style>
+        /* css here*/
+        #myid {
+            font-size: 12px;
+        }
+/*
+        div {
+            font-size: 100px;
+        }
+*/
+        .myclass {
+            font-size: 20px;
+        }
+        #myid > p {
+            color: blue;
+/*            font-size 5px!important;*/
+        }
+        h1,h2,h3 {
+            font-size:5px;
+        }
+        
+        
+        
+        .mytodolist ul li a {
+            text-decoration: none;
+        }
+        #nav ul li {
+            list-style: none; 
+            float: left;
+            padding:10px 20px;
+           
+        }
+        #nav ul li a {
+            color: black;
+            text-decoration: none;
+            transition: background-color .3s, color .3s;
+        }
+        
+        #nav ul li:hover {
+             background-color: beige;
+        }
+        #nav ul li:hover > a{
+            text-decoration: underline;
+            color: aqua;
+        }
+        
+        .clearfix  {
+            clear:both;
+        }
+        
+        
+        
+    </style>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+   <div id="nav">
+       <h4>Menu here: </h4>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Sign Up</a></li>
+            <li><a href="">Sign In</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+    
+    <div class="clearfix"></div>
+    <pre>
+          1. Inline-style
+               <div style="color:aqua">my color: qua</div>
+          2. Head > style
+          3. file .css and import .css to html
+          4. Selector  
+              4.1: Tag html   thisTag { /*css here */ } /*thisTag is tag html, ex: h1, h2, div, p,...*/ 
+              4.2: Class      .className { /*css here */ }
+              4.3: ID         #idName { /*css here */ }
+              4.3: Element1 element2 { /* css here */ }  /* Định nghĩa tất cả thằng element2 trong element1 */
+              4.3: Element1 > element2 {/* css here */} /* Định nghĩa duy nhất element2 LÀ CON của element1 */
+              4.4: Element1, element2  {/* css here */} /* Định nghĩa cả element1 và element2 */
+              
+        Cuk Cak
+            1. Không dãn cách
+            2. vị trí
+            3. Bug trôi lên trên
+            => soveled: box-model < float
+    </pre>
+    
+    
+    <div class="clearfix"></div>
+    <div class="mytodolist">
+       <h4>My todo list here: </h4>
+        <ul>
+            <li><a href="">Lorem ipsum dolor.</a></li>
+            <li><a href="">Learn CSS</a></li>
+            <li><a href="">Go to Tran Duy Hung</a></li>
+        </ul>
+        <a href="">jklfasdjlk</a>
+    </div>
+    
+    
+    <div class="myclass">
+        fuck you
+    </div>
+    
+    <div id="myid">
+        fuck you but this is id
+        <p>fuck  you but this is p tag </p>
+        <div>
+            <p>fuck you but this is div p</p>
+        </div>
+    </div>
+    <div id="myid2">
+        <h1>fuck you but h1</h1>
+        <h2>fuck you but h2</h2>
+        <h3>fuck you but h3</h3>
+    </div>
+    <h1>fuck you but h1</h1>
+</body>
+</html>
